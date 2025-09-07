@@ -9,6 +9,10 @@
         {"station": "C", "arrival": "11:00", "departure": "11:10"}
     ],
     "distance_km": 200,
+    "distance_per_segment": {
+        "A-B": 100,
+        "B-C": 100
+    },
     "days_of_operation": ["Mon", "Tue", "Wed", "Thu"],
     "classes": {
         "1A": 0,
@@ -39,6 +43,10 @@
         {"station": "Z", "arrival": "11:00", "departure": "11:15"}
     ],
     "distance_km": 300,
+    "distance_per_segment": {
+        "X-Y": 150,
+        "Y-Z": 150
+    },
     "days_of_operation": ["Fri", "Sat", "Sun"],
     "classes": {
         "1A": 20,
