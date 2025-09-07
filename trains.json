@@ -1,0 +1,63 @@
+
+[
+{
+    "train_number": "15202",
+    "train_name": "intercity",
+    "route":[
+        {"station": "A", "arrival": "09:00", "departure": "09:10"},
+        {"station": "B", "arrival": "10:00", "departure": "10:05"},
+        {"station": "C", "arrival": "11:00", "departure": "11:10"}
+    ],
+    "distance_km": 200,
+    "days_of_operation": ["Mon", "Tue", "Wed", "Thu"],
+    "classes": {
+        "1A": 0,
+        "2A": 48,
+        "3A": 128,
+        "SL": 432,
+        "2S": 270,
+        "GEN": 360
+
+    },
+    "fare_per_km": {
+        "1A": 3.0,
+        "2A": 2.0,
+        "3A": 1.5,
+        "SL": 1.0,
+        "2S": 0.5,
+        "GEN": 0.75
+    }
+
+
+},
+{
+    "train_number": "12557",
+    "train_name": "Sapt Kranti express",
+    "route":[
+        {"station": "X", "arrival": "08:00", "departure": "08:15"},
+        {"station": "Y", "arrival": "09:30", "departure": "09:45"},
+        {"station": "Z", "arrival": "11:00", "departure": "11:15"}
+    ],
+    "distance_km": 300,
+    "days_of_operation": ["Fri", "Sat", "Sun"],
+    "classes": {
+        "1A": 20,
+        "2A": 60,
+        "3A": 150,
+        "SL": 500,
+        "2S": 300,
+        "GEN": 400
+    },
+    "fare_per_km": {
+        "1A": 3.5,
+        "2A": 2.5,
+        "3A": 1.8,
+        "SL": 1.2,
+        "2S": 0.6,
+        "GEN": 0.8
+    }
+}
+]
+
+
+
